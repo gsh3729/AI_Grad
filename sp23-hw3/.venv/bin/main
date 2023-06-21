@@ -1,0 +1,6 @@
+#!/Users/sriharshagaddipati/Courses/AI/sp23-hw3/.venv/bin/python
+import sys
+from rlhw.main import main
+
+if __name__ == '__main__':
+    sys.exit(main())

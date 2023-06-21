@@ -1,0 +1,19 @@
+# ** do not modify **
+train_split: 0.9
+data_path: "./mnist.npz"
+
+hydra:  
+  output_subdir: null  
+  run:  
+    dir: .
+
+# ** can modify **
+
+# network_size: [2, 3, 4, 5]
+network_size: [2, 2, 2]
+
+
+epochs: 5
+lr: 1
+decay: 1
+batch_size: 32
